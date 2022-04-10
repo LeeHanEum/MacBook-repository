@@ -16,6 +16,7 @@ else :
 print("추천 아이디 : ")
 print(GetID.lower())
 print("git이 동작함?")
+print("git이 동작함?")
 
 
 
