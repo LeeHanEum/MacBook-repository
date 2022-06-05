@@ -1,14 +1,15 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
-int main (){
+int main(){
+    char letter;
 
-    double w, h, area, perimeter;
+    while(1){
+        printf("소문자 : ");
+        scanf("%c", &letter);
+        letter-=32;
+        printf("%c\n", letter);
 
-    printf("가로 세로 순서대로 입력 : ");
-    scanf("%lf %lf", &w, &h);
-
-    printf("%lf %lf", w, h);
-
+    }
     return 0;
 }
