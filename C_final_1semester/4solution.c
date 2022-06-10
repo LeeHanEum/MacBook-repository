@@ -2,14 +2,11 @@
 #include <stdio.h>
 
 int main(){
-    char letter;
+    double w,h,area,perimeter;
+    scanf("%lf %lf", &w, &h);
+    area = w*h;
+    perimeter = 2*(w+h);
 
-    while(1){
-        printf("소문자 : ");
-        scanf("%c", &letter);
-        letter-=32;
-        printf("%c\n", letter);
-
-    }
+    printf("%lf\t %lf",area, perimeter);
     return 0;
 }
